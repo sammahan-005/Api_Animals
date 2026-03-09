@@ -6,6 +6,17 @@ info:
 http:
   method: POST
   url: http://localhost:3333/animals
+  body:
+    type: json
+    data: |
+      {
+          
+          "name": "Doggy",
+          "species": "Freeze",
+          "age": 7,
+          "adopted": 0
+         
+      }
   auth: inherit
 
 settings:

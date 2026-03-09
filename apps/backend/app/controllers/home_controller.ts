@@ -2,6 +2,11 @@ import type { HttpContext } from '@adonisjs/core/http'
 //import Animal from '#models/animal'
 
 export default class HomeController {
+    /**
+     * @index
+     * @summary Welcome message
+     * @responseBody 200 - Success response - application/json
+     */
     public async index({ response }: HttpContext) {
         return response.json({
             message: 'Welcome to the AdonisJS API',

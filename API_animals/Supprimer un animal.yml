@@ -5,7 +5,7 @@ info:
 
 http:
   method: DELETE
-  url: ""
+  url: http://localhost:3333/animals/8
   auth: inherit
 
 settings:

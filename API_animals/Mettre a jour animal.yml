@@ -5,7 +5,18 @@ info:
 
 http:
   method: PUT
-  url: ""
+  url: http://localhost:3333/animals/2
+  body:
+    type: json
+    data: |
+      {
+          
+          "name": "test",
+          "species": "Oliss",
+          "age": 7,
+          "adopted": 1
+         
+      }
   auth: inherit
 
 settings:
